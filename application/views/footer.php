@@ -104,4 +104,21 @@
         zoomImage.style.transform = 'scale(1) translate(0%, 0%)';
         });
     </script>
+    <script>
+        document.getElementById("whatsappButton").addEventListener("click", function() {
+            var contactNumber = "+6288809329788"; // Replace with the recipient's actual phone number
+            var productName = document.getElementById("productName").value;
+            var quantity = document.getElementById("inputQuantity").value;
+            var message = "Hello, Saya ingin Bertanya perihal product "+productName+"\nSebanyak: "+quantity;
+            
+            // Encode the message and contact number for the URL
+            var encodedMessage = encodeURIComponent(message);
+            
+            // Construct the WhatsApp URL
+            var whatsappUrl = "https://api.whatsapp.com/send?phone=" + contactNumber + "&text=" + encodedMessage;
+            
+            // Open the WhatsApp chat window
+            window.open(whatsappUrl);
+        });
+    </script>
 </html>
