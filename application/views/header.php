@@ -15,12 +15,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/bs_styles.css" rel="stylesheet" />
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-5">
                 <a class="navbar-brand fw-bold" href="<?=base_url()?>"><img src='assets/img/logo_header.png' class='navbar-brand'></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,8 +31,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#products">Products</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Layanan</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#products">Product</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#pricing">Prices</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#project">Project</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#product">Products</a></li>
                     </ul>
                     <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                         <span class="d-flex align-items-center">
