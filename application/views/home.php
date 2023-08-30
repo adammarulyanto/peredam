@@ -186,106 +186,139 @@ include('header.php')
             </div>
         </section>
         
-        <section id="pricing">
+        <section id="pricing" class="bg-light">
             <div class="container">
                 <div class="col-lg-12 order-lg-0 text-center">
-                    <h2 class="display-4 lh-1 mb-4">Price</h2>
+                    <h2 class="display-4 lh-1 mb-4">Harga</h2>
                     <p class="lead fw-normal text-muted mb-5 mb-lg-5">Kami memiliki beberapa layanan yang akan membantu Anda merancang dan 
 mewujudkan keinginan dan kebutuhan Anda.</p>
                 </div>
-                <table class="table table-bordered table-pricing text-center align-middle">
-                  <thead class="align-middle">
-                    <tr>
-                      <th scope="col" class="theader">Function</th>
-                      <th scope="col"><img src="assets/img/gambar1.png"></th>
-                      <th scope="col"><img src="assets/img/gambar2.png"></th>
-                      <th scope="col"><img src="assets/img/gambar2.png"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th>Ventilation and lighting regulator</th>
-                      <td><i class="bi bi-x-circle-fill text-danger"></i></td>
-                      <td>Spec</td>
-                      <td>Spec 2</td>
-                    </tr>
-                    <tr>
-                      <th>Choice of colors inside and outside</th>
-                      <td><i class="bi bi-check-circle-fill text-primary"></i></td>
-                      <td>Spec</td>
-                      <td>Spec 2</td>
-                    </tr>
-                    <tr>
-                      <th>Network panel</th>
-                      <td><i class="bi bi-check-circle-fill text-primary"></i></td>
-                      <td><i class="bi bi-check-circle-fill text-primary"></i></td>
-                      <td><i class="bi bi-check-circle-fill text-primary"></i></td>
-                    </tr>
-                    <tr>
-                      <th></th>
-                      <td><button class="btn btn-primary px-3 py-2 mb-lg-0   " onclick="location.href='<?=base_url()?>product'">
-                            <span class="d-flex align-items-center">
-                                <span class="medium">Read More</span>
-                            </span>
-                        </button></td>
-                      <td><button class="btn btn-primary px-3 py-2 mb-lg-0   " onclick="location.href='<?=base_url()?>product'">
-                            <span class="d-flex align-items-center">
-                                <span class="medium">Read More</span>
-                            </span>
-                        </button></td>
-                      <td><button class="btn btn-primary px-3 py-2 mb-lg-0   " onclick="location.href='<?=base_url()?>product'">
-                            <span class="d-flex align-items-center">
-                                <span class="medium">Read More</span>
-                            </span>
-                        </button></td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table class="table table-pricing text-center align-middle shadow-sm">
+                      <thead class="align-middle">
+                        <tr>
+                          <th scope="col" class="theader">Function</th>
+                          <th scope="col"><img src="assets/img/gambar1.png"></th>
+                          <th scope="col"><img src="assets/img/gambar2.png"></th>
+                          <th scope="col"><img src="assets/img/gambar2.png"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Ventilation and lighting regulator</td>
+                          <td><i class="bi bi-x-circle-fill text-danger"></i></td>
+                          <td>Spec</td>
+                          <td>Spec 2</td>
+                        </tr>
+                        <tr>
+                          <td>Choice of colors inside and outside</td>
+                          <td><i class="bi bi-check-circle-fill text-primary"></i></td>
+                          <td>Spec</td>
+                          <td>Spec 2</td>
+                        </tr>
+                        <tr>
+                          <td>Network panel</td>
+                          <td><i class="bi bi-check-circle-fill text-primary"></i></td>
+                          <td><i class="bi bi-check-circle-fill text-primary"></i></td>
+                          <td><i class="bi bi-check-circle-fill text-primary"></i></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td><button class="btn btn-primary px-3 py-2 mb-lg-0   " onclick="location.href='<?=base_url()?>product'">
+                                <span class="d-flex align-items-center">
+                                    <span class="medium">Read More</span>
+                                </span>
+                            </button></td>
+                          <td><button class="btn btn-primary px-3 py-2 mb-lg-0   " onclick="location.href='<?=base_url()?>product'">
+                                <span class="d-flex align-items-center">
+                                    <span class="medium">Read More</span>
+                                </span>
+                            </button></td>
+                          <td><button class="btn btn-primary px-3 py-2 mb-lg-0   " onclick="location.href='<?=base_url()?>product'">
+                                <span class="d-flex align-items-center">
+                                    <span class="medium">Read More</span>
+                                </span>
+                            </button></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
             </div>
         </section>
         <section id="project" class="bg-light">
-                <div class="col-lg-12 order-lg-0 text-center">
-                    <h2 class="display-4 lh-1 mb-4">Project Kami</h2>
-                    <p class="lead fw-normal text-muted mb-5 mb-lg-5">Kami memiliki beberapa layanan yang akan membantu Anda merancang dan 
-mewujudkan keinginan dan kebutuhan Anda.</p>
-                </div>
                 <div class="carousel"
                 data-flickity='{ "lazyLoad": true }'>
                     <div class="carousel-cell">
-                        <img class="carousel-cell-image"
-                    data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/tulip.jpg" alt="tulip" />
+                        <div class="row mx-md-3 g-wrap">
+                                <div class="col-lg-8 px-md-5 g-project">
+                                    <div class="row-gal"> 
+                                      <div class="column-gal">
+                                        <img src="assets/img/plat_jogja_1.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_2.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_3.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_4.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_5.png" style="width:100%">
+                                      </div>
+                                      <div class="column-gal">
+                                        <img src="assets/img/plat_jogja_5.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_4.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_3.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_2.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_1.png" style="width:100%">
+                                      </div>  
+                                      <div class="column-gal">
+                                        <img src="assets/img/plat_jogja_2.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_3.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_1.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_4.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_5.png" style="width:100%">
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 px-md-5 g-project order-lg-0 t-project">
+                                        <div class="desc-project">
+                                        <h2 class="display-5 lh-1 mb-4">Platinum Jogja</h2>
+                                        <p class="lead fw-normal text-muted mb-lg-5">Project Interior Soundproofing 
+& Accoustic Specialist.</p>
+                                        </div>
+                                </div>
+                        </div>
                     </div>
                     <div class="carousel-cell">
-                        <img class="carousel-cell-image"
-                    data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/grapes.jpg" alt="grapes" />
-                    </div>
-                    <div class="carousel-cell">
-                        <img class="carousel-cell-image"
-                    data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/raspberries.jpg" alt="raspberries" />
-                    </div>
-                    <div class="carousel-cell">
-                        <img class="carousel-cell-image"
-                    data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/wolf.jpg" alt="wolf" />
-                    </div>
-                    <div class="carousel-cell">
-                        <img class="carousel-cell-image"
-                    data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/shore.jpg" alt="sea" />
-                    </div>
-                    <div class="carousel-cell">
-                        <img class="carousel-cell-image"
-                    data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/leaf-droplets.jpg" alt="leaf droplets" />
-                    </div>
-                    <div class="carousel-cell">
-                        <img class="carousel-cell-image"
-                    data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/gulls.jpg" alt="gulls" />
-                    </div>
-                    <div class="carousel-cell">
-                        <img class="carousel-cell-image"
-                    data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/touch-screen.jpg" alt="touch screen" />
-                    </div>
-                    <div class="carousel-cell">
-                        <img class="carousel-cell-image"
-                    data-flickity-lazyload="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/van.jpg" alt="van" />
+                        <div class="row mx-md-3 g-wrap">
+                                <div class="col-lg-8 px-md-5 g-project">
+                                    <div class="row-gal"> 
+                                      <div class="column-gal">
+                                        <img src="assets/img/plat_jogja_1.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_2.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_3.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_4.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_5.png" style="width:100%">
+                                      </div>
+                                      <div class="column-gal">
+                                        <img src="assets/img/plat_jogja_5.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_4.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_3.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_2.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_1.png" style="width:100%">
+                                      </div>  
+                                      <div class="column-gal">
+                                        <img src="assets/img/plat_jogja_2.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_3.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_1.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_4.png" style="width:100%">
+                                        <img src="assets/img/plat_jogja_5.png" style="width:100%">
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 px-md-5 g-project order-lg-0 t-project">
+                                        <div>
+                                        <h2 class="display-5 lh-1 mb-4">Platinum Jogja</h2>
+                                        <p class="lead fw-normal text-muted mb-5 mb-lg-5">Project Interior Soundproofing 
+& Accoustic Specialist.</p>
+                                        </div>
+                                </div>
+                        </div>
                     </div>
             </div>
         </section>

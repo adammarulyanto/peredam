@@ -56,3 +56,4 @@ toggleArea.addEventListener("click", function (e) {
     masterPrice.innerHTML = `  <p class="price-3"> <span class="dollar-sign">&dollar;</span>39.99</p>`;
   }
 });
+

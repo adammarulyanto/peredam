@@ -16,8 +16,21 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css">
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/bs_styles.css" rel="stylesheet" />
+        <script type="text/javascript">
+            import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
+
+            const lightbox = new PhotoSwipeLightbox({
+              gallery: '#my-gallery',
+              children: 'a',
+              pswpModule: () => import('https://unpkg.com/photoswipe'),
+            });
+
+            lightbox.init();
+
+        </script>
 
     </head>
     <body id="page-top">

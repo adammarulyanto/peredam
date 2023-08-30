@@ -23,7 +23,8 @@
 }
 .table-pricing{
     font-size: 13pt;
-    border-radius: 10px;
+    background-color: #FFF;
+    border-radius: 20px;
 }
 .table-pricing i{
     font-size: 25px;
@@ -31,11 +32,58 @@
 .table-pricing thead{
     text-align: center;
 }
+.table-pricing tr td{
+    padding: 35px 0;
+}
 .table-pricing thead img{
     max-width: 200px;
 }
+.table-pricing tbody > tr:last-child > td {
+  border-bottom: 0;
+}
 .theader{
     width: 250px;
+}
+
+/*gallery img*/
+.row-gal {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-gal {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column-gal img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-gal {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-gal {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 /*carousel*/
@@ -46,14 +94,47 @@
 
 .carousel-cell {
   width: 100%; /* full width */
-  margin-right: 10px;
+  height: 700px;
+  margin-right: 10px;  
+}
+.g-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;                                                              
+}
+.g-project{
+    overflow: hidden;
+    position: relative; 
+    height: 100%;
+}
+.t-project{
+    height: 100%;
+    display: flex;
+  justify-content: center; /* Optional, for horizontal centering */
+  align-items: center;
+}
+@media screen and (max-width:995px) {
+  .t-project{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+  }
+  .desc-project{
+    background-color: white;
+    padding: 0;
+  }
+  .t-project p{ color: white; }
+  .d-sm-none{
+    display: none;
+  }
 }
 
 .carousel-cell-image {
-  display: block;
-  max-height: 100%;
-  margin: 0 auto;
-  max-width: 100%;
+  height: 100%;
   opacity: 0;
   -webkit-transition: opacity 0.4s;
           transition: opacity 0.4s;
@@ -63,4 +144,21 @@
 .carousel-cell-image.flickity-lazyloaded,
 .carousel-cell-image.flickity-lazyerror {
   opacity: 1;
+}
+
+/* position dots in carousel */
+.flickity-page-dots {
+  bottom: 50px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: white;
 }
