@@ -1,3 +1,12 @@
+.head-banner{
+  padding: 50px 0 0 0;
+  margin: 0;
+  background-image: url('https://www.oecogardenrooms.co.uk/uploads/gallery/img--724.jpg');
+  background-size: cover;
+}
+.banner{
+  padding: 200px 0;
+}
 .btn{
     border-radius: 50px;
 }
@@ -97,6 +106,14 @@
   height: 700px;
   margin-right: 10px;  
 }
+.cc-banner{
+  width: 30%; /* half-width */
+  padding: 20px;
+}
+.cc-banner img{
+  max-width: 100%;
+  border-radius: 10px;
+}
 .g-wrap{
     display: flex;
     justify-content: center;
@@ -123,6 +140,9 @@
     transform: translate(-50%, -50%);
     z-index: 99;
   }
+  .cc-banner{
+    width: 50%;
+  }
   .desc-project{
     background-color: white;
     padding: 0;
@@ -132,6 +152,16 @@
     display: none;
   }
 }
+@media screen and (max-width:786px) {
+  .banner{
+    padding: 0;
+  }
+  .cc-banner{
+    width: 100%;
+    padding: 0;
+    border-radius: 0px;
+  }
+  }
 
 .carousel-cell-image {
   height: 100%;
@@ -161,4 +191,24 @@
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
   background: white;
+}
+/* no circle */
+.flickity-button {
+  background: transparent;
+}
+.flickity-button:hover {
+  background: transparent;
+}
+/* big previous & next buttons */
+.flickity-prev-next-button {
+  width: 5vh;
+  height: 5vh;
+}
+/* icon color */
+.flickity-button-icon {
+  fill: white;
+}
+/* hide disabled button */
+.flickity-button:disabled {
+  display: none;
 }
