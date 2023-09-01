@@ -1,17 +1,49 @@
 
         <!-- Footer-->
-        <footer class="bg-black text-center py-5">
-            <div class="container px-5">
-                <div class="text-white-50 small">
-                    <div class="mb-2">&copy; Your Website 2023. All Rights Reserved.</div>
-                    <a href="#!">Privacy</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="#!">Terms</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="#!">FAQ</a>
+        <!-- Footer-->
+        <section class="bg-light p-0 m-0 border-top overflow-hidden">
+            <div class="container">
+              <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
+                <div class="col mb-3">
+                  <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                    <img class="logo-footer" src="assets/img/logo_header.png">
+                  </a>
+                  <p class="text-body-secondary">&copy; 2023</p>
                 </div>
+
+                <div class="col mb-3">
+
+                </div>
+
+                <div class="col mb-3">
+                  <h5>Social</h5>
+                  <ul class="nav list-unstyled social">
+                  <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter text-dark"></i></a></li>
+                  <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram text-dark"></i></a></li>
+                  <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook text-dark"></i></a></li>
+                </ul>
+                </div>
+
+                <div class="col mb-3">
+                  <h5>Menu</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Layanan</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Proyek</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Berita</a></li>
+                  </ul>
+                </div>
+
+                <div class="col mb-3">
+                  <h5>Layanan</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQ</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Syarat & Ketentuan</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </footer>
             </div>
-        </footer>
+        </section>
         <!-- Feedback Modal-->
         <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
