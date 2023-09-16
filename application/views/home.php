@@ -1,11 +1,13 @@
 <?php
 include('header.php')
 ?>
+<script>
+
+</script>
         <!-- Mashead header-->
         <div class="head-banner position-relative">
             <div class="bg-banner"></div>
-            <div class="banner text-white" 
-        data-flickity='{ "lazyLoad": true,"pageDots": false,"initialIndex": 1}'>
+            <div class="banner text-white" data-flickity='{ "lazyLoad": true,"pageDots": false,"initialIndex": 1}'>
             <div class="cc-banner p-0">
                   <!-- Mashead text and app badges-->
                 <div class="title-banner">
@@ -34,6 +36,37 @@ include('header.php')
                 </div>  
               </div>
             </div>
+
+            <div class="banner-m text-white" data-flickity='{ "lazyLoad": true,"pageDots": false,"initialIndex": 0}'>
+            <div class="cc-banner p-0">
+                  <!-- Mashead text and app badges-->
+                <div class="title-banner">
+                    <h3 class="display-5 lh-1 mb-3"><span class='text-warning'>Tawaran Khusus</span> untuk Kamu.</h3>
+                    <p class="lead small">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+                    <button class="btn btn-primary px-3 py-2" onclick="location.href='<?=base_url()?>product'">
+                        <span class="d-flex align-items-center">
+                            <span class="small">View All Models</span>
+                        </span>
+                    </button>
+                </div>
+              </div>
+              <div class="cc-banner">
+                <div class="box-banner">
+                    <img src="assets/img/banner1.png">
+                </div>  
+              </div>
+              <div class="cc-banner">
+                <div class="box-banner">
+                    <img src="assets/img/banner1.png">
+                </div>  
+              </div>
+              <div class="cc-banner">
+                <div class="box-banner">
+                    <img src="assets/img/banner1.png">
+                </div>  
+              </div>
+            </div>
+
             <svg class="wave-cont position-absolute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fafafa" fill-opacity="1" d="M0,224L120,229.3C240,235,480,245,720,224C960,203,1200,149,1320,122.7L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
         </div>
 
@@ -41,28 +74,28 @@ include('header.php')
             <div class="row gx-2 align-items-center">
                 <div class="col-xl-12 align-left" data-flickity='{ "lazyLoad": true,"contain": true,"pageDots": false,"prevNextButtons": false,"autoPlay": true,"autoPlay": 3000,"wrapAround": true}'>
                     <div class="cc-klien">
-                        <img src="assets/img/klien1.png" alt="..." style="height: 3rem" class="m-3" />
+                        <img src="assets/img/klien1.png" alt="..." class="m-3" />
                     </div>
                     <div class="cc-klien">
-                        <img src="assets/img/klien2.png" alt="..." style="height: 3rem" class="m-3" />
+                        <img src="assets/img/klien2.png" alt="..." class="m-3" />
                     </div>
                     <div class="cc-klien">
-                        <img src="assets/img/klien3.png" alt="..." style="height: 3rem" class="m-3" />
+                        <img src="assets/img/klien3.png" alt="..." class="m-3" />
                     </div>
                     <div class="cc-klien">
-                        <img src="assets/img/klien4.png" alt="..." style="height: 3rem" class="m-3" />
+                        <img src="assets/img/klien4.png" alt="..." class="m-3" />
                     </div>
                     <div class="cc-klien">
-                        <img src="assets/img/klien1.png" alt="..." style="height: 3rem" class="m-3" />
+                        <img src="assets/img/klien1.png" alt="..." class="m-3" />
                     </div>
                     <div class="cc-klien">
-                        <img src="assets/img/klien2.png" alt="..." style="height: 3rem" class="m-3" />
+                        <img src="assets/img/klien2.png" alt="..." class="m-3" />
                     </div>
                     <div class="cc-klien">
-                        <img src="assets/img/klien3.png" alt="..." style="height: 3rem" class="m-3" />
+                        <img src="assets/img/klien3.png" alt="..." class="m-3" />
                     </div>
                     <div class="cc-klien">
-                        <img src="assets/img/klien4.png" alt="..." style="height: 3rem" class="m-3" />
+                        <img src="assets/img/klien4.png" alt="..." class="m-3" />
                     </div>
                 </div>
             </div>
