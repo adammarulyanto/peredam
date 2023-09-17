@@ -1,7 +1,7 @@
 
         <!-- Footer-->
         <!-- Footer-->
-        <section class="bg-light p-0 m-0 border-top overflow-hidden">
+        <div class="bg-light p-0 m-0 border-top overflow-hidden">
             <div class="container">
               <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
                 <div class="col mb-3">
@@ -43,7 +43,7 @@
                 </div>
               </footer>
             </div>
-        </section>
+        </div>
         <!-- Feedback Modal-->
         <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">

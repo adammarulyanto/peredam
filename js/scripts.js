@@ -7,6 +7,18 @@
 // Scripts
 // 
 
+
+
+function handleScroll() {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 0) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+}
+window.addEventListener('scroll', handleScroll);
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
@@ -56,4 +68,3 @@ toggleArea.addEventListener("click", function (e) {
     masterPrice.innerHTML = `  <p class="price-3"> <span class="dollar-sign">&dollar;</span>39.99</p>`;
   }
 });
-

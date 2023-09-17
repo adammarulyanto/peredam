@@ -7,6 +7,9 @@
         <meta name="author" content="" />
         <title>New Age - Start Bootstrap Theme</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/bs_styles.css" rel="stylesheet" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
@@ -20,8 +23,6 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
         <link rel="stylesheet" href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css">
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/bs_styles.css" rel="stylesheet" />
         <script type="text/javascript">
             import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
 
@@ -38,7 +39,7 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
             <div class="container px-5">
                 <a class="navbar-brand fw-bold" href="<?=base_url()?>"><img src='assets/img/logo_header.png' class='navbar-brand'></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
